@@ -37,7 +37,7 @@ How to use:
 `$ ./bizzbazz_from_file.py myfile.txt`
 
 `$ Bee says "bizz bazz"`
- 
+
 *myfile.txt:*
 > Bee says "33 55"
 
@@ -45,11 +45,11 @@ Features
 -------------
 
 - **Works with big strings and numbers**
- 
+
  `$ ./bizzbazz_from_string.py big_string.txt`
 
  `$ It's gonna be legen... (wait for it) bizzbazz ...dary!`
- 
+
  *big_string.txt:*
 > It's gonna be legen... (wait for it) 300000000000000000000000
 > 000000000000000000000000000000000000000000000000
@@ -58,7 +58,7 @@ Features
 > 000000000000000000000000000000000000000000000000
 > 000000000000000000000000000000000000000000000000
 > 0000000000000000000000000000000000000000000 ...dary
-   
+
  - Awesome detection of signed numbers sequences:
 
  `$./bizzbazz_from_string.py +42-42++55--30+`
