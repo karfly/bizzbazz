@@ -52,7 +52,10 @@ def main():
                 print  "Wrong number of arguments!"
                 sys.exit(1)
 
-        string = sys.argv[1]
+        with open(sys.argv[1], 'r') as file:
+                string = file.readline()
+
+        string = string[:-2] # Removing the last '\n' character
         string_len = len(string)
 
         answer = '' # Here we'll keep the output string, which is answer to the task
