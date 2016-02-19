@@ -13,12 +13,12 @@ Formulation of the task:
 > - '*bazz*' if it is divided by 3
 > - '*bizzbazz*' if it is divided by 3 and 5
 
-> If the number does not fit this list, it is left it untouched. Numbers can be signed ('**+**' or '**-**'). It's restricted to use explicit division (e.g. '**/**' or '**%**' ).
+> If the number does not fit this list, it is left untouched. Numbers can be signed ('**+**' or '**-**'). It's restricted to use explicit division (e.g. '**/**' or '**%**' ).
 
 ----------
 How to use:
 ----------------
-**From string version (bizzbazz_from_string.py):**
+**'From string' version (bizzbazz_from_string.py):**
 
  `$ ./bizzbazz_from_string.py [YOUR_STRING]`
 
@@ -26,7 +26,7 @@ How to use:
  `$ ./bizzbazz_from_string.py bizzbazz=15`
 `$ bizzbazz=bizzbazz`
 
-**From file version (bizzbazz_from_file.py). First line must have a line folding ('\n'):**
+**'From file' version (bizzbazz_from_file.py). First line must have a line folding ('\n'):**
 
 `$ ./bizzbazz_from_file.py [PATH_TO_THE_FILE]`
 
@@ -37,7 +37,6 @@ How to use:
 <i class="icon-doc"> *myfile.txt:*
 > Bee says "33 55"
 
-----------
 
 Features
 -------------
