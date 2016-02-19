@@ -22,6 +22,7 @@ How to use:
 >`$ ./bizzbazz_from_string.py [YOUR_STRING]`
 >
 >*Example:*
+>
 >`$ ./bizzbazz_from_string.py bizzbazz=15`
 >`$ bizzbazz=bizzbazz`
 
@@ -30,10 +31,11 @@ How to use:
 >`$ ./bizzbazz_from_file.py [PATH_TO_THE_FILE]`
 
 >*Example:*
+>
 >`$ ./bizzbazz_from_file.py myfile.txt`
 >`$ Bee says "bizz bazz"`
 
-><i class="icon-doc"> myfile.txt:
+*myfile.txt:*
 
 >> Bee says "33 55"
 
@@ -46,7 +48,7 @@ Features
  `$ ./bizzbazz_from_string.py big_string.txt`
  `$ It's gonna be legen... (wait for it) bizzbazz ...dary!`
 
- <i class="icon-doc"> *big_string.txt:*
+*big_string.txt:*
 > It's gonna be legen... (wait for it) 30000000000000000000
 > 000000000000000000000000000000000000000000000000
 > 000000000000000000000000000000000000000000000000
