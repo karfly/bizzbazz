@@ -44,7 +44,7 @@ How to use:
 Features
 -------------
 
-> - **Works with big strings and numbers**
+- **Works with big strings and numbers**
  
  `$ ./bizzbazz_from_string.py big_string.txt`
 
