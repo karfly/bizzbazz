@@ -33,13 +33,13 @@ def is_divided_by_5(n_str) : # Note, that this function gets a string as an argu
 def bizzbazz(n_str) : # Note, that this function gets a string as an argument (to work with big numbers)
 
         if (is_divided_by_3(n_str) and is_divided_by_5(n_str)) :
-                return '<bizzbazz>'
+                return 'bizzbazz'
 
         elif (is_divided_by_3(n_str)) :
-                return '<bizz>'
+                return 'bizz'
 
         elif (is_divided_by_5(n_str)) :
-                return '<bazz>'
+                return 'bazz'
 
         else :
                 return n_str
@@ -55,7 +55,7 @@ def main():
         with open(sys.argv[1], 'r') as file:
                 string = file.readline()
 
-        string = string[:-2] # Removing the last '\n' character
+        string = string[:-1] # Removing the last '\n' character
         string_len = len(string)
 
         answer = '' # Here we'll keep the output string, which is answer to the task
@@ -93,7 +93,10 @@ def main():
                                 answer += bizzbazz(number)
                                 number = ''
                         else :
-                                answer += string[i]
+                                if (number != '') :
+                                    answer += bizzbazz(number)
+                                else :
+                                    answer += string[i]
         print answer
 
         sys.exit(0)
