@@ -22,6 +22,7 @@ How to use:
  `$ ./bizzbazz_from_string.py [YOUR_STRING]`
 
 *Example:*
+
  `$ ./bizzbazz_from_string.py bizzbazz=15`
 `$ bizzbazz=bizzbazz`
 
@@ -34,7 +35,7 @@ How to use:
 `$ ./bizzbazz_from_file.py myfile.txt`
 `$ Bee says "bizz bazz"`
 
-<i class="icon-doc"> *myfile.txt:*
+<i class="icon-doc"> myfile.txt:
 
 > Bee says "33 55"
 
