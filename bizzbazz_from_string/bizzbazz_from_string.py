@@ -33,13 +33,13 @@ def is_divided_by_5(n_str) : # Note, that this function gets a string as an argu
 def bizzbazz(n_str) : # Note, that this function gets a string as an argument (to work with big numbers)
 
         if (is_divided_by_3(n_str) and is_divided_by_5(n_str)) :
-                return '<bizzbazz>'
+                return 'bizzbazz'
 
         elif (is_divided_by_3(n_str)) :
-                return '<bizz>'
+                return 'bizz'
 
         elif (is_divided_by_5(n_str)) :
-                return '<bazz>'
+                return 'bazz'
 
         else :
                 return n_str
@@ -90,7 +90,10 @@ def main():
                                 answer += bizzbazz(number)
                                 number = ''
                         else :
-                                answer += string[i]
+                                if (number != '') :
+                                    answer += bizzbazz(number) + string[i]
+                                else :
+                                    answer += string[i]
         print answer
 
         sys.exit(0)
