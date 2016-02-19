@@ -15,7 +15,6 @@ Formulation of the task:
 
 > If the number does not fit this list, it is left untouched. Numbers can be signed ('**+**' or '**-**'). It's restricted to use explicit division (e.g. '**/**' or '**%**' ).
 
-----------
 How to use:
 ----------------
 **'From string' version (bizzbazz_from_string.py):**
@@ -31,10 +30,12 @@ How to use:
 `$ ./bizzbazz_from_file.py [PATH_TO_THE_FILE]`
 
 *Example:*
+
 `$ ./bizzbazz_from_file.py myfile.txt`
 `$ Bee says "bizz bazz"`
 
 <i class="icon-doc"> *myfile.txt:*
+
 > Bee says "33 55"
 
 
