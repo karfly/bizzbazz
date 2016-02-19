@@ -46,6 +46,7 @@ Features
  - **Works with big strings and numbers**
 
 >`$ ./bizzbazz_from_string.py big_string.txt`
+>
 >`$ It's gonna be legen... (wait for it) bizzbazz ...dary!`
 
 >*big_string.txt:*
@@ -59,4 +60,5 @@ Features
 
  - Awesome detection of signed numbers sequences:
 >`$./bizzbazz_from_string.py +42-42++55--30+`
->`bizzbizz+bazz-bizzbazz+`
+>
+>`$ bizzbizz+bazz-bizzbazz+`
