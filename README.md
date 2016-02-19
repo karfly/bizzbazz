@@ -19,25 +19,23 @@ How to use:
 ----------------
 **'From string' version (bizzbazz_from_string.py):**
 
- `$ ./bizzbazz_from_string.py [YOUR_STRING]`
-
-*Example:*
-
- `$ ./bizzbazz_from_string.py bizzbazz=15`
-`$ bizzbazz=bizzbazz`
+>`$ ./bizzbazz_from_string.py [YOUR_STRING]`
+>
+>*Example:*
+>`$ ./bizzbazz_from_string.py bizzbazz=15`
+>`$ bizzbazz=bizzbazz`
 
 **'From file' version (bizzbazz_from_file.py). First line must have a line folding ('\n'):**
 
-`$ ./bizzbazz_from_file.py [PATH_TO_THE_FILE]`
+>`$ ./bizzbazz_from_file.py [PATH_TO_THE_FILE]`
 
-*Example:*
+>*Example:*
+>`$ ./bizzbazz_from_file.py myfile.txt`
+>`$ Bee says "bizz bazz"`
 
-`$ ./bizzbazz_from_file.py myfile.txt`
-`$ Bee says "bizz bazz"`
+><i class="icon-doc"> myfile.txt:
 
-<i class="icon-doc"> myfile.txt:
-
-> Bee says "33 55"
+>> Bee says "33 55"
 
 
 Features
